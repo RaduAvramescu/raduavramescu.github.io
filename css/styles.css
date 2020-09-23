@@ -1,7 +1,12 @@
 /* Defaults */
 
+@font-face {
+    font-family: "Open Sans";
+    src: url("font/OpenSans-Regular.ttf");
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Preloader */
@@ -292,7 +297,7 @@ footer {
         border-right: solid .1em red;
         white-space: nowrap;
         overflow: hidden;    
-        font-family: 'Source Code Pro', monospace;
+        font-family: "Source Code Pro", monospace;
         letter-spacing: .15em;
         animation: text-animation 2s steps(29,end) 1s 1 normal both,
                 cursor-animation 600ms steps(29,end) infinite;
