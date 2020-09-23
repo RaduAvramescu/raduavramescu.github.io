@@ -113,13 +113,17 @@ function modalOpen(cardid) {
   let projectGif = data.map(a => a.projectGif);
   document.getElementById("myModal").getElementsByClassName("card-img-top")[0].setAttribute("src", projectGif[cardid]);
   document.getElementById("myModal").getElementsByClassName("card-img-top")[0].setAttribute("style", "transition: none; filter: none; transform: none;");
-  myModal.style.display = "block";
-  myModal.classList.add("show");
+  modal.classList.add("d-block");
+  setTimeout(() => {
+    modal.classList.add("show");
+  }, 100);
 }
 
 function modalClose() {
-  modal.style.display = "none";
   modal.classList.remove("show");
+  setTimeout(() => {
+    modal.classList.remove("d-block");
+  }, 100);
 }
 
 // Element fade-in/slide-in
