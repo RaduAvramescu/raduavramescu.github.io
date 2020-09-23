@@ -7,14 +7,14 @@ function isScrolling() {
       let currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
       if (currentScroll > 0 && lastScroll <= currentScroll) {
         lastScroll = currentScroll;
-        header.classList.add('header-hide');
+        header.classList.add("header-hide");
       } else {
         lastScroll = currentScroll;
-        if (document.getElementsByTagName('header')[0].classList.contains('header-hide'))
+        if (document.getElementsByTagName('header')[0].classList.contains("header-hide"))
           {
-            header.classList.remove('header-hide');
+            header.classList.remove("header-hide");
             nav.setAttribute("style", "transition-property: none;");
-            nav.classList.remove('show');
+            nav.classList.remove("show");
             setTimeout(() => {
               nav.removeAttribute("style");
             }, 100);
@@ -66,7 +66,7 @@ function projectFunction(projectArr) {
           output += '</div>';
       }
   }
-  document.getElementById("projectsContent").innerHTML = output;
+  document.getElementById('projectsContent').innerHTML = output;
 }
 
 let data = [
@@ -103,16 +103,16 @@ projectFunction(data);
 
 // Modal
 
-let modal = document.getElementById("myModal");
-let modalHeading = document.getElementsByClassName("modal-title")[0];
-let modalBody = document.getElementsByClassName("modal-body")[0];
+let modal = document.getElementById('myModal');
+let modalHeading = document.getElementsByClassName('modal-title')[0];
+let modalBody = document.getElementsByClassName('modal-body')[0];
 
 function modalOpen(cardid) {
   let modalBodyReplacement = document.getElementById(cardid).innerHTML;
   modalBody.innerHTML = modalBodyReplacement;
   let projectGif = data.map(a => a.projectGif);
-  document.getElementById("myModal").getElementsByClassName("card-img-top")[0].setAttribute("src", projectGif[cardid]);
-  document.getElementById("myModal").getElementsByClassName("card-img-top")[0].setAttribute("style", "transition: none; filter: none; transform: none;");
+  document.getElementById('myModal').getElementsByClassName('card-img-top')[0].setAttribute("src", projectGif[cardid]);
+  document.getElementById('myModal').getElementsByClassName('card-img-top')[0].setAttribute("style", "transition: none; filter: none; transform: none;");
   modal.classList.add("d-block");
   setTimeout(() => {
     modal.classList.add("show");
