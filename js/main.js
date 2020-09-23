@@ -45,7 +45,7 @@ function projectFunction(projectArr) {
       output += '<div class="col-lg-4 slide-in from-left opacity-0">' +
       '<div class="card mb-5" id="' + i + '">' +
       '<div class="overflow-hidden">' +
-      '<a data-toggle="modal" data-target="#myModal" onclick="modalClick' +
+      '<a data-toggle="modal" data-target="#myModal" onclick="modalOpen' +
       '(' + i + ');">' +
       '<img src="' + projectArr[i].projectImage + '" alt="' + projectArr[i].projectTitle + '" class="card-img-top w-100">' +
       '</a>' +
@@ -107,7 +107,7 @@ let modal = document.getElementById("myModal");
 let modalHeading = document.getElementsByClassName("modal-title")[0];
 let modalBody = document.getElementsByClassName("modal-body")[0];
 
-function modalClick(cardid) {
+function modalOpen(cardid) {
   let modalBodyReplacement = document.getElementById(cardid).innerHTML;
   modalBody.innerHTML = modalBodyReplacement;
   let projectGif = data.map(a => a.projectGif);
