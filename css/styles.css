@@ -173,6 +173,11 @@ input[type=email]:not(:placeholder-shown) + .label {
     transform: translateY(-30px);
 }
 
+input:invalid,
+textarea:invalid {
+    box-shadow: none;
+}
+
 .form-control:focus,
 .form-control:valid,
 input[type=email]:not(:placeholder-shown) {
