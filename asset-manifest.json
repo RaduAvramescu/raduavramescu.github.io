@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a8b954a.chunk.css",
+    "main.css": "/static/css/main.2eec2df5.chunk.css",
     "main.js": "/static/js/main.2561b06a.chunk.js",
     "main.js.map": "/static/js/main.2561b06a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2bd4dfbd.js",
@@ -10,7 +10,7 @@
     "static/js/2.7d8b429d.chunk.js.map": "/static/js/2.7d8b429d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.25d3548d.chunk.css.map": "/static/css/2.25d3548d.chunk.css.map",
-    "static/css/main.6a8b954a.chunk.css.map": "/static/css/main.6a8b954a.chunk.css.map",
+    "static/css/main.2eec2df5.chunk.css.map": "/static/css/main.2eec2df5.chunk.css.map",
     "static/js/2.7d8b429d.chunk.js.LICENSE.txt": "/static/js/2.7d8b429d.chunk.js.LICENSE.txt",
     "static/media/Jumbotron.module.css": "/static/media/jumbotron.c48058af.jpg",
     "static/media/index.css": "/static/media/open-sans-v18-latin-regular.f57a62e9.woff2"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.2bd4dfbd.js",
     "static/css/2.25d3548d.chunk.css",
     "static/js/2.7d8b429d.chunk.js",
-    "static/css/main.6a8b954a.chunk.css",
+    "static/css/main.2eec2df5.chunk.css",
     "static/js/main.2561b06a.chunk.js"
   ]
 }
