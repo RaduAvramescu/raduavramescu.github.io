@@ -7,22 +7,22 @@
       "extensions": [
         // Astro support
         "astro-build.astro-vscode",
-        
+
         // Tailwind CSS support
         "bradlc.vscode-tailwindcss",
-        
+
         // Code formatting and linting
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
-        
+
         // TypeScript support (enhanced)
         "ms-vscode.vscode-typescript-next",
-        
+
         // HTML/CSS support
         "ecmel.vscode-html-css",
-        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-rename-tag"
       ],
-      
+
       "settings": {
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -60,7 +60,7 @@
   },
 
   "postCreateCommand": "npm install",
-  
+
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {}
